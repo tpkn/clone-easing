@@ -23,7 +23,7 @@ function round(num, len){
  * @param  {Array} arr
  * @return {String}
  */
-function strigify(arr){
+function stringify(arr){
    var i, str = '';
    for(i = 0; i < arr.length; i++){
       str += (i != 0 ? ',' : '') + '{x:' + round(arr[i].x) + ',y:' + round(arr[i].y) + '}';
@@ -75,7 +75,7 @@ function copyEasing(){
        frame = layer.frames[timeline.currentFrame];
 
    if(frame.hasCustomEase){
-      getPanel().call('copyCallback', strigify(frame.getCustomEase('all')));
+      getPanel().call('copyCallback', stringify(frame.getCustomEase('all')));
       getPanel().call('statCallback', 'Layer: ' + layer.name + ' > Frame: ' + frame.startFrame);
    }else{
       getPanel().call('copyCallback', '');
