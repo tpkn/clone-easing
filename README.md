@@ -1,9 +1,10 @@
 # Clone Easing
 
 
+Painless copying complicated easings in Adobe Animate
 
 
-![preview](https://github.com/tpkn/clone-easing/blob/master/preview.png)
+![preview](https://github.com/tpkn/clone-easing/blob/master/preview.gif)
 
 
 ### Usage
