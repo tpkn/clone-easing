@@ -1,4 +1,4 @@
-﻿/**
+﻿/*!
  * Clone Easing (v1.0.1.20161216), http://tpkn.me/
  */
 
