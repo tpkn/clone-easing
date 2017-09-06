@@ -1,6 +1,3 @@
-# Clone Easing
-
-
 ![preview](https://github.com/tpkn/clone-easing/blob/master/preview.gif)
 
 
