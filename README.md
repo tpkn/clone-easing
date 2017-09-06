@@ -7,6 +7,7 @@
 ### Usage
 1. Select frame with custom easing and press "Copy" button
 2. Select one or multiple tweens where you want to add easing then press "Paste" button
+<br />
 
 
 
